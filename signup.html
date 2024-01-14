@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="signup">
+      <h2>Start Your Dream Journay</h2>
+      <form action="#" method="post">
+        <div class="content">
+          <div class="input-box2">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="your first name" required />
+          </div>
+          <div class="input-box2">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="your last name" required />
+          </div>
+          <div class="input-box2">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter username" name="uname" id="username" required />
+          </div>
+          <div class="input-box2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your valid email address" name="password"required/>
+          </div>
+          <div class="input-box2">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter new password"  required />
+          </div>
+          <div class="input-box2">
+            <label for="confirm">Confirm Password</label>
+            <input type="password" id="confirm" placeholder="Confirm your password" name="confirmPassword" required/>
+          </div>
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+          <input type="radio" name="gender" id="male">
+          <label for="male">Male</label>
+          <input type="radio"  name="gender" id="female">
+          <label for="female">Female</label>
+          <input type="radio"  name="gender" id="other">
+          <label for="other">Other</label>
+         </div>
+        </div>
+       <div class="alert">
+        <p>By clicking the Sign up button, you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Policy Privacy</a>
+        </p>
+       </div>
+       <div class="btn2">
+        <button type="submit">Submit</button>
+       </div>
+       
+      </form>
+      <p class="para2">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+    
+  </body>
+</html>
